@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 29, 2024 at 04:17 PM
+-- Generation Time: Dec 30, 2024 at 05:28 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -43,12 +43,12 @@ CREATE TABLE `berita_galeri` (
 --
 
 INSERT INTO `berita_galeri` (`id`, `nama`, `gambar`, `keterangan`, `tanggal`, `penulis`, `date_created`, `date_updated`) VALUES
-(1, 'h', 'images/berita_galeri/imunisasi.jpg', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-29 20:02:51'),
-(2, 'Upacara 17 Agustus dilaksanakan secara meriah di MI Asas Islam Kalibening', 'images/berita_galeri/upacara.jpg', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-27 15:51:30'),
-(3, 'MI Asas Islam Kalibening baru saja melaksanakan wisuda siswa kelas 6', 'images/berita_galeri/wisuda.jpg', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-27 15:51:30'),
+(1, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', '', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-30 18:30:24'),
+(2, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', '', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-30 18:30:24'),
+(3, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', 'images/berita_galeri/lomba.png', NULL, '2024-12-28', 'Penulis', '2024-12-27 15:51:30', '2024-12-29 22:58:29'),
 (4, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', 'images/berita_galeri/lomba.png', NULL, '2024-12-28', 'Penulis', '2024-12-27 16:16:16', '2024-12-27 16:20:09'),
 (5, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', 'images/berita_galeri/lomba.png', NULL, '2024-12-28', 'Penulis', '2024-12-27 16:16:16', '2024-12-27 16:20:09'),
-(6, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', 'images/berita_galeri/lomba.png', NULL, '2024-12-28', 'Penulis', '2024-12-27 16:16:16', '2024-12-27 16:20:09'),
+(6, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', '', NULL, '2024-12-28', 'Penulis', '2024-12-27 16:16:16', '2024-12-30 18:30:12'),
 (7, 'Beberapa siswa MI Kalibening Juarai KSM tingkat kota Salatiga', 'images/berita_galeri/lomba.png', NULL, '2024-12-28', 'Penulis', '2024-12-27 16:16:16', '2024-12-27 16:20:09'),
 (8, 'Berita 8', 'images/berita_galeri/lomba.png', NULL, '2024-12-29', 'Penulis', '2024-12-29 19:59:55', '2024-12-29 19:59:55');
 
@@ -102,12 +102,12 @@ CREATE TABLE `guru_staf` (
 INSERT INTO `guru_staf` (`id`, `nama`, `jabatan`, `gambar`, `date_created`, `date_updated`) VALUES
 (1, 'Kepala Sekolah', 'Kepala Sekolah', 'images/awg.png', '2024-12-25 16:16:21', '2024-12-28 16:09:15'),
 (2, 'Wakil Kepala Sekolah', 'cie', 'images/devina.jpg', '2024-12-25 16:16:58', '2024-12-28 19:47:49'),
-(3, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-25 16:17:24', '2024-12-28 16:09:15'),
-(4, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-27 13:25:51', '2024-12-28 16:09:15'),
-(5, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-27 13:25:51', '2024-12-28 16:09:15'),
-(6, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-27 13:25:51', '2024-12-28 16:09:15'),
-(7, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-27 13:25:51', '2024-12-28 16:09:15'),
-(8, 'Nama Guru', 'Nama Guru', 'images/default.jpg', '2024-12-27 13:25:51', '2024-12-28 16:09:15');
+(3, 'Nama Guru', 'Nama Guru', '', '2024-12-25 16:17:24', '2024-12-30 18:28:07'),
+(4, 'Nama Guru', 'Nama Guru', '', '2024-12-27 13:25:51', '2024-12-30 18:28:07'),
+(5, 'Nama Guru', 'Nama Guru', '', '2024-12-27 13:25:51', '2024-12-30 18:28:07'),
+(6, 'Nama Guru', 'Nama Guru', '', '2024-12-27 13:25:51', '2024-12-30 18:28:07'),
+(7, 'Nama Guru', 'Nama Guru', '', '2024-12-27 13:25:51', '2024-12-30 18:28:07'),
+(8, 'Nama Guru', 'Nama Guru', '', '2024-12-27 13:25:51', '2024-12-30 18:28:07');
 
 -- --------------------------------------------------------
 
@@ -163,9 +163,9 @@ INSERT INTO `prestasi` (`id`, `nama`, `gambar`, `keterangan`, `tanggal`, `penuli
 (3, 'Juara Pertama Pidato Bahasa Jawa PORSEMA Kota Salatiga', 'images/default.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-26 23:12:12', '2024-12-28 16:43:27'),
 (4, 'Juara Pertama Badminton Putra PORSEMA Kota Salatiga', 'images/default.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-26 23:12:12', '2024-12-28 16:43:27'),
 (5, 'Juara Pertama Lari 3000 M PORSEMA Kota Salatiga', 'images/default.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-26 23:12:12', '2024-12-28 16:43:27'),
-(8, 'Juara 1 Malas Ngoding Frontend', 'images/jomji.jpg', 'Lorem ipsum dolor sit amet consectetur. Massa condimentum donec ipsum et purus vulputate diam. Eget in proin faucibus natoque orci laoreet. Sit ullamcorper turpis in nulla non dolor. Et in et ullamcorper in turpis.\r\n‍\r\nUltricies aliquam et lacinia sapien consequat cras suscipit risus. Dui sapien lorem tincidunt nisi tellus. Id faucibus leo cursus id odio nisi nisl convallis ut. Semper dignissim sagittis orci lacus iaculis amet tempus quis odio. Elementum eget egestas tincidunt pulvinar et volutpat. Sagittis quam at sed quis malesuada tellus lectus. Vitae nunc diam quam orci proin elit mi fermentum. Odio elementum leo sagittis sit. Arcu metus gravida eu quis tincidunt senectus bibendum in congue. Sapien neque fusce ullamcorper dictum mauris aliquam porttitor pulvinar quisque. Nunc eu dolor amet turpis tincidunt aliquet.\r\n‍\r\nTortor pharetra natoque ac in vitae. Lorem at placerat amet ante. Urna turpis eros sodales odio. Cras scelerisque nulla est tortor quis nunc. Morbi eleifend commodo eleifend nunc ac dolor aenean varius mattis. Auctor consequat sit lectus nisl maecenas sit. Eu elit duis amet dignissim morbi orci sit. Ullamcorper turpis quis ipsum sem quis morbi et hac. In sem non pulvinar in lectus metus molestie. Ut viverra diam tempor tortor tincidunt dolor quam.', '2024-12-28', 'Penulis', '2024-12-27 13:16:15', '2024-12-29 18:12:58'),
-(9, 'Prestasi ke-7', 'images/default.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-27 13:17:54', '2024-12-28 16:43:27'),
-(10, 'Prestasi ke-8', 'images/default.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-27 13:17:54', '2024-12-28 16:43:27');
+(8, 'Juara 1 Malas Ngoding Frontend', 'images/ugm.jpg', 'Lorem ipsum dolor sit amet consectetur. Massa condimentum donec ipsum et purus vulputate diam. Eget in proin faucibus natoque orci laoreet. Sit ullamcorper turpis in nulla non dolor. Et in et ullamcorper in turpis.\r\n‍\r\nUltricies aliquam et lacinia sapien consequat cras suscipit risus. Dui sapien lorem tincidunt nisi tellus. Id faucibus leo cursus id odio nisi nisl convallis ut. Semper dignissim sagittis orci lacus iaculis amet tempus quis odio. Elementum eget egestas tincidunt pulvinar et volutpat. Sagittis quam at sed quis malesuada tellus lectus. Vitae nunc diam quam orci proin elit mi fermentum. Odio elementum leo sagittis sit. Arcu metus gravida eu quis tincidunt senectus bibendum in congue. Sapien neque fusce ullamcorper dictum mauris aliquam porttitor pulvinar quisque. Nunc eu dolor amet turpis tincidunt aliquet.\r\n‍\r\nTortor pharetra natoque ac in vitae. Lorem at placerat amet ante. Urna turpis eros sodales odio. Cras scelerisque nulla est tortor quis nunc. Morbi eleifend commodo eleifend nunc ac dolor aenean varius mattis. Auctor consequat sit lectus nisl maecenas sit. Eu elit duis amet dignissim morbi orci sit. Ullamcorper turpis quis ipsum sem quis morbi et hac. In sem non pulvinar in lectus metus molestie. Ut viverra diam tempor tortor tincidunt dolor quam.', '2024-12-28', 'Penulis', '2024-12-27 13:16:15', '2024-12-30 17:30:35'),
+(9, 'Prestasi ke-7', '', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-27 13:17:54', '2024-12-30 17:56:59'),
+(10, 'Prestasi ke-8', 'images/takhasus.jpg', 'Preview isi berita lorem ipsum dolor sit amet consectetur. Est fusce eget mollis scelerisque natoque. Dignissim ut nulla sollicitudin commodo vitae condimentum turpis nibh..', '2024-12-28', 'Penulis', '2024-12-27 13:17:54', '2024-12-30 17:30:19');
 
 -- --------------------------------------------------------
 
