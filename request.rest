@@ -1,0 +1,35 @@
+////////////
+### (BERITA DAN GALERI) Get All
+GET http://localhost:8080/berita-galeri
+### (BERITA DAN GALERI) Get By ID
+GET http://localhost:8080/berita-galeri
+
+////////////
+### (FASILITAS) Get All
+GET http://localhost:8080/fasilitas
+### (FASILITAS) Get By ID
+GET http://localhost:8080/fasilitas/1
+
+////////////
+### (GURU DAN STAF) Get All
+GET http://localhost:8080/guru-staf
+### (GURU DAN STAF) Get By ID
+GET http://localhost:8080/guru-staf/1
+
+////////////
+### (KEGIATAN HARIAN) Get All
+GET http://localhost:8080/kegiatan-harian
+### (KEGIATAN HARIAN) Get By ID
+GET http://localhost:8080/kegiatan-harian/1
+
+////////////
+### (PRESTASI) Get All
+GET http://localhost:8080/prestasi
+### (PRESTASI) Get By ID
+GET http://localhost:8080/prestasi/1
+
+////////////
+### (PROGRAM UNGGULAN) Get All
+GET http://localhost:8080/program-unggulan
+### (PROGRAM UNGGULAN) Get By ID
+GET http://localhost:8080/program-unggulan/1
